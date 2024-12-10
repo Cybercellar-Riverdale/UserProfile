@@ -1,0 +1,4996 @@
+[
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-11-29T05:16:45.104Z",
+            "uniqueQualifier": "275445427894550794",
+            "applicationName": "login",
+            "customerId": "C04f0lcev"
+        },
+        "etag": "\"VW4We-znyJl4io05lE7ys5dwONVfQICXOTqYZHTmIXs/EpxWbYgNPvDUukXrw9iCL4zVvIk\"",
+        "actor": {
+            "email": "john@riverdalecloud.com",
+            "profileId": "118254042510394075046"
+        },
+        "ipAddress": "2001:8003:26dd:e400:7509:b557:95a0:59b7",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_success",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "password"
+                        ]
+                    },
+                    {
+                        "name": "is_suspicious",
+                        "boolValue": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-11-29T05:15:13.369Z",
+            "uniqueQualifier": "5280589063692933718",
+            "applicationName": "login",
+            "customerId": "C04f0lcev"
+        },
+        "etag": "\"VW4We-znyJl4io05lE7ys5dwONVfQICXOTqYZHTmIXs/S0LFFHbWrMLcU4jU4_es1h54NcA\"",
+        "actor": {
+            "email": "jsa@riverdalecloud.com",
+            "profileId": "115846707314682005279"
+        },
+        "ipAddress": "203.81.241.220",
+        "events": [
+            {
+                "type": "login",
+                "name": "risky_sensitive_action_blocked",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "password",
+                            "idv_any_phone",
+                            "idv_any_phone"
+                        ]
+                    },
+                    {
+                        "name": "is_suspicious",
+                        "boolValue": true
+                    },
+                    {
+                        "name": "sensitive_action_name",
+                        "value": "Access admin.google.com"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-11-29T05:15:13.369Z",
+            "uniqueQualifier": "5970371571307900255",
+            "applicationName": "login",
+            "customerId": "C04f0lcev"
+        },
+        "etag": "\"VW4We-znyJl4io05lE7ys5dwONVfQICXOTqYZHTmIXs/MYlnV2M_xQdx-lhkS2XOyiLZcpM\"",
+        "actor": {
+            "email": "jsa@riverdalecloud.com",
+            "profileId": "115846707314682005279"
+        },
+        "ipAddress": "203.81.241.220",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_failure",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "password",
+                            "idv_any_phone",
+                            "idv_any_phone"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-11-29T05:15:13.369Z",
+            "uniqueQualifier": "-2066689844253256979",
+            "applicationName": "login",
+            "customerId": "C04f0lcev"
+        },
+        "etag": "\"VW4We-znyJl4io05lE7ys5dwONVfQICXOTqYZHTmIXs/2nV3_1uiHmhZS1pdprux4SgAlqM\"",
+        "actor": {
+            "email": "jsa@riverdalecloud.com",
+            "profileId": "115846707314682005279"
+        },
+        "ipAddress": "203.81.241.220",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_challenge",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "idv_any_phone"
+                        ]
+                    },
+                    {
+                        "name": "login_challenge_status",
+                        "value": "passed"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-11-29T05:14:20.926Z",
+            "uniqueQualifier": "8786848644098395795",
+            "applicationName": "login",
+            "customerId": "C04f0lcev"
+        },
+        "etag": "\"VW4We-znyJl4io05lE7ys5dwONVfQICXOTqYZHTmIXs/PVTB_k59-My24i3yGXwuaCtNzIA\"",
+        "actor": {
+            "email": "jsa@riverdalecloud.com",
+            "profileId": "115846707314682005279"
+        },
+        "ipAddress": "203.81.241.220",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_challenge",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "idv_any_phone"
+                        ]
+                    },
+                    {
+                        "name": "login_challenge_status",
+                        "value": "incorrect_answer_entered"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-11-29T05:12:45.037Z",
+            "uniqueQualifier": "-5422626567001213770",
+            "applicationName": "login",
+            "customerId": "C04f0lcev"
+        },
+        "etag": "\"VW4We-znyJl4io05lE7ys5dwONVfQICXOTqYZHTmIXs/zdk72sC0DWmaA1K2WTTzWtC3_i4\"",
+        "actor": {
+            "email": "john@riverdalecloud.com",
+            "profileId": "118254042510394075046"
+        },
+        "ipAddress": "203.81.241.220",
+        "events": [
+            {
+                "type": "login",
+                "name": "risky_sensitive_action_blocked",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "idv_preregistered_phone",
+                            "device_prompt",
+                            "device_prompt"
+                        ]
+                    },
+                    {
+                        "name": "is_suspicious",
+                        "boolValue": true
+                    },
+                    {
+                        "name": "sensitive_action_name",
+                        "value": "Access admin.google.com"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-11-29T05:12:45.037Z",
+            "uniqueQualifier": "4050673428533288146",
+            "applicationName": "login",
+            "customerId": "C04f0lcev"
+        },
+        "etag": "\"VW4We-znyJl4io05lE7ys5dwONVfQICXOTqYZHTmIXs/TBiFdD_orWlmhK-sQDRh01gtwm4\"",
+        "actor": {
+            "email": "john@riverdalecloud.com",
+            "profileId": "118254042510394075046"
+        },
+        "ipAddress": "203.81.241.220",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_failure",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "knowledge_preregistered_phone",
+                            "device_prompt",
+                            "device_prompt"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-11-29T05:12:45.037Z",
+            "uniqueQualifier": "1381837316189912984",
+            "applicationName": "login",
+            "customerId": "C04f0lcev"
+        },
+        "etag": "\"VW4We-znyJl4io05lE7ys5dwONVfQICXOTqYZHTmIXs/jO5EFLlManaoYMw4NNyI9Jb40rY\"",
+        "actor": {
+            "email": "john@riverdalecloud.com",
+            "profileId": "118254042510394075046"
+        },
+        "ipAddress": "203.81.241.220",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_challenge",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "device_prompt"
+                        ]
+                    },
+                    {
+                        "name": "login_challenge_status",
+                        "value": "passed"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-11-29T05:12:35.358Z",
+            "uniqueQualifier": "-2411251726643945926",
+            "applicationName": "login",
+            "customerId": "C04f0lcev"
+        },
+        "etag": "\"VW4We-znyJl4io05lE7ys5dwONVfQICXOTqYZHTmIXs/VXn8qG3jgT7qB6jTHwvSYW_JHik\"",
+        "actor": {
+            "email": "john@riverdalecloud.com",
+            "profileId": "118254042510394075046"
+        },
+        "ipAddress": "203.81.241.220",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_challenge",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "device_prompt"
+                        ]
+                    },
+                    {
+                        "name": "login_challenge_status",
+                        "value": "passed"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-11-29T05:12:06.772Z",
+            "uniqueQualifier": "-5502084010002330067",
+            "applicationName": "login",
+            "customerId": "C04f0lcev"
+        },
+        "etag": "\"VW4We-znyJl4io05lE7ys5dwONVfQICXOTqYZHTmIXs/MIkpiU9wc4vmwUnfDvd-t3I4mfI\"",
+        "actor": {
+            "email": "john@riverdalecloud.com",
+            "profileId": "118254042510394075046"
+        },
+        "ipAddress": "203.81.241.220",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_challenge",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "knowledge_preregistered_phone"
+                        ]
+                    },
+                    {
+                        "name": "login_challenge_status",
+                        "value": "passed"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-11-29T05:09:23.264Z",
+            "uniqueQualifier": "-6680232002800750692",
+            "applicationName": "login",
+            "customerId": "C04f0lcev"
+        },
+        "etag": "\"VW4We-znyJl4io05lE7ys5dwONVfQICXOTqYZHTmIXs/uQnDtF66W4j1piJB1oXzJ2Sm23o\"",
+        "actor": {
+            "email": "jsa@riverdalecloud.com",
+            "profileId": "115846707314682005279"
+        },
+        "ipAddress": "203.81.241.220",
+        "events": [
+            {
+                "type": "login",
+                "name": "risky_sensitive_action_blocked",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "password",
+                            "idv_any_phone"
+                        ]
+                    },
+                    {
+                        "name": "is_suspicious",
+                        "boolValue": true
+                    },
+                    {
+                        "name": "sensitive_action_name",
+                        "value": "Access admin.google.com"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-11-29T05:09:23.264Z",
+            "uniqueQualifier": "-70659499290591427",
+            "applicationName": "login",
+            "customerId": "C04f0lcev"
+        },
+        "etag": "\"VW4We-znyJl4io05lE7ys5dwONVfQICXOTqYZHTmIXs/vKC236iJxt4VizCrIPXtbZqqWRo\"",
+        "actor": {
+            "email": "jsa@riverdalecloud.com",
+            "profileId": "115846707314682005279"
+        },
+        "ipAddress": "203.81.241.220",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_failure",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "password",
+                            "idv_any_phone"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-11-29T05:09:23.264Z",
+            "uniqueQualifier": "-5348139089233592770",
+            "applicationName": "login",
+            "customerId": "C04f0lcev"
+        },
+        "etag": "\"VW4We-znyJl4io05lE7ys5dwONVfQICXOTqYZHTmIXs/5Gxv4T0qMuWr9s0WPU4UQi0HPGI\"",
+        "actor": {
+            "email": "jsa@riverdalecloud.com",
+            "profileId": "115846707314682005279"
+        },
+        "ipAddress": "203.81.241.220",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_challenge",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "idv_any_phone"
+                        ]
+                    },
+                    {
+                        "name": "login_challenge_status",
+                        "value": "passed"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-11-29T05:00:18.589Z",
+            "uniqueQualifier": "5324253465710161663",
+            "applicationName": "login",
+            "customerId": "C04f0lcev"
+        },
+        "etag": "\"VW4We-znyJl4io05lE7ys5dwONVfQICXOTqYZHTmIXs/LmSkoNwY3WsJ-SLoizIbBKN1Fho\"",
+        "actor": {
+            "email": "jsa@riverdalecloud.com",
+            "profileId": "115846707314682005279"
+        },
+        "ipAddress": "203.81.241.220",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_failure",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "password"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-11-29T05:00:18.589Z",
+            "uniqueQualifier": "123608429116225217",
+            "applicationName": "login",
+            "customerId": "C04f0lcev"
+        },
+        "etag": "\"VW4We-znyJl4io05lE7ys5dwONVfQICXOTqYZHTmIXs/Wm3CInkbgfXdyMyRwHMrRgwMptg\"",
+        "actor": {
+            "email": "jsa@riverdalecloud.com",
+            "profileId": "115846707314682005279"
+        },
+        "ipAddress": "203.81.241.220",
+        "events": [
+            {
+                "type": "login",
+                "name": "risky_sensitive_action_blocked",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "password"
+                        ]
+                    },
+                    {
+                        "name": "is_suspicious",
+                        "boolValue": true
+                    },
+                    {
+                        "name": "sensitive_action_name",
+                        "value": "Access admin.google.com"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-11-29T04:23:48.561Z",
+            "uniqueQualifier": "-2108694065981460490",
+            "applicationName": "login",
+            "customerId": "C04f0lcev"
+        },
+        "etag": "\"VW4We-znyJl4io05lE7ys5dwONVfQICXOTqYZHTmIXs/jqnv_Bd434rb7K1vliyKBhgoplk\"",
+        "actor": {
+            "email": "jsa@riverdalecloud.com",
+            "profileId": "115846707314682005279"
+        },
+        "ipAddress": "203.81.241.220",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_failure",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "google_password"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "password"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-11-29T04:23:48.000Z",
+            "uniqueQualifier": "4858764641257018937",
+            "applicationName": "login",
+            "customerId": "C04f0lcev"
+        },
+        "etag": "\"VW4We-znyJl4io05lE7ys5dwONVfQICXOTqYZHTmIXs/yzAo4gklaNLn0RJia9IXOaiElEo\"",
+        "actor": {
+            "callerType": "KEY",
+            "key": "Google"
+        },
+        "ipAddress": "203.81.241.220",
+        "events": [
+            {
+                "type": "account_warning",
+                "name": "suspicious_login",
+                "parameters": [
+                    {
+                        "name": "affected_email_address",
+                        "value": "jsa@riverdalecloud.com"
+                    },
+                    {
+                        "name": "login_timestamp",
+                        "intValue": "1732854228000000"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-11-28T23:00:14.229Z",
+            "uniqueQualifier": "-1160811780763205926",
+            "applicationName": "login",
+            "customerId": "C04f0lcev"
+        },
+        "etag": "\"VW4We-znyJl4io05lE7ys5dwONVfQICXOTqYZHTmIXs/yxo6RJQ4gaNjpyIYU8In0kZWddk\"",
+        "actor": {
+            "email": "john@riverdalecloud.com",
+            "profileId": "118254042510394075046"
+        },
+        "ipAddress": "2405:6e00:428:ce3d:1082:78ec:8201:5284",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_failure",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "password"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-11-28T11:07:36.989Z",
+            "uniqueQualifier": "-8289825866880543177",
+            "applicationName": "login",
+            "customerId": "C04f0lcev"
+        },
+        "etag": "\"VW4We-znyJl4io05lE7ys5dwONVfQICXOTqYZHTmIXs/3pdKMRpa46JkJDhUOfIAleqqwAE\"",
+        "actor": {
+            "email": "jsa@riverdalecloud.com",
+            "profileId": "115846707314682005279"
+        },
+        "ipAddress": "36.255.87.2",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_failure",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "password"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-11-28T11:07:36.989Z",
+            "uniqueQualifier": "-4669239061161293106",
+            "applicationName": "login",
+            "customerId": "C04f0lcev"
+        },
+        "etag": "\"VW4We-znyJl4io05lE7ys5dwONVfQICXOTqYZHTmIXs/7OEgcdla8KiQ51yd4b0tK0hh59E\"",
+        "actor": {
+            "email": "jsa@riverdalecloud.com",
+            "profileId": "115846707314682005279"
+        },
+        "ipAddress": "36.255.87.2",
+        "events": [
+            {
+                "type": "login",
+                "name": "risky_sensitive_action_blocked",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "password"
+                        ]
+                    },
+                    {
+                        "name": "is_suspicious",
+                        "boolValue": true
+                    },
+                    {
+                        "name": "sensitive_action_name",
+                        "value": "Access admin.google.com"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-11-28T11:07:08.454Z",
+            "uniqueQualifier": "3827688392722372643",
+            "applicationName": "login",
+            "customerId": "C04f0lcev"
+        },
+        "etag": "\"VW4We-znyJl4io05lE7ys5dwONVfQICXOTqYZHTmIXs/C27bUvdwXSIrzSERqjoChJ_eHWg\"",
+        "actor": {
+            "email": "jsa@riverdalecloud.com",
+            "profileId": "115846707314682005279"
+        },
+        "ipAddress": "36.255.87.2",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_failure",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "password"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-11-28T11:07:08.454Z",
+            "uniqueQualifier": "2662144693751376027",
+            "applicationName": "login",
+            "customerId": "C04f0lcev"
+        },
+        "etag": "\"VW4We-znyJl4io05lE7ys5dwONVfQICXOTqYZHTmIXs/4Ev2H9U4aqBEjEajvwBIFRsy8ho\"",
+        "actor": {
+            "email": "jsa@riverdalecloud.com",
+            "profileId": "115846707314682005279"
+        },
+        "ipAddress": "36.255.87.2",
+        "events": [
+            {
+                "type": "login",
+                "name": "risky_sensitive_action_blocked",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "password"
+                        ]
+                    },
+                    {
+                        "name": "is_suspicious",
+                        "boolValue": true
+                    },
+                    {
+                        "name": "sensitive_action_name",
+                        "value": "Access admin.google.com"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-11-28T11:06:48.048Z",
+            "uniqueQualifier": "-8465535745555705075",
+            "applicationName": "login",
+            "customerId": "C04f0lcev"
+        },
+        "etag": "\"VW4We-znyJl4io05lE7ys5dwONVfQICXOTqYZHTmIXs/QkarfsuAFZz-DcSka5Pi38-2AWc\"",
+        "actor": {
+            "email": "jsa@riverdalecloud.com",
+            "profileId": "115846707314682005279"
+        },
+        "ipAddress": "36.255.87.2",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_failure",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "password"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-11-28T11:06:48.048Z",
+            "uniqueQualifier": "-324333338896156836",
+            "applicationName": "login",
+            "customerId": "C04f0lcev"
+        },
+        "etag": "\"VW4We-znyJl4io05lE7ys5dwONVfQICXOTqYZHTmIXs/ZfnAqCQr-qQT_-U2TIO8Soy_HiU\"",
+        "actor": {
+            "email": "jsa@riverdalecloud.com",
+            "profileId": "115846707314682005279"
+        },
+        "ipAddress": "36.255.87.2",
+        "events": [
+            {
+                "type": "login",
+                "name": "risky_sensitive_action_blocked",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "password"
+                        ]
+                    },
+                    {
+                        "name": "is_suspicious",
+                        "boolValue": true
+                    },
+                    {
+                        "name": "sensitive_action_name",
+                        "value": "Access admin.google.com"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-11-28T10:52:06.305Z",
+            "uniqueQualifier": "7282944475045299527",
+            "applicationName": "login",
+            "customerId": "C04f0lcev"
+        },
+        "etag": "\"VW4We-znyJl4io05lE7ys5dwONVfQICXOTqYZHTmIXs/n900O3JjHm35WRyC1C-qJpXNczU\"",
+        "actor": {
+            "email": "jsa@riverdalecloud.com",
+            "profileId": "115846707314682005279"
+        },
+        "ipAddress": "36.255.87.2",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_success",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "google_password"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "password",
+                            "idv_any_phone"
+                        ]
+                    },
+                    {
+                        "name": "is_suspicious",
+                        "boolValue": true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-11-28T10:52:06.305Z",
+            "uniqueQualifier": "-8791453165174299089",
+            "applicationName": "login",
+            "customerId": "C04f0lcev"
+        },
+        "etag": "\"VW4We-znyJl4io05lE7ys5dwONVfQICXOTqYZHTmIXs/hjEtdogJPMye-q2Kd-kZvtweRMU\"",
+        "actor": {
+            "email": "jsa@riverdalecloud.com",
+            "profileId": "115846707314682005279"
+        },
+        "ipAddress": "36.255.87.2",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_challenge",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "google_password"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "idv_any_phone"
+                        ]
+                    },
+                    {
+                        "name": "login_challenge_status",
+                        "value": "passed"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-11-28T08:22:34.309Z",
+            "uniqueQualifier": "-5228771004351293778",
+            "applicationName": "login",
+            "customerId": "C04f0lcev"
+        },
+        "etag": "\"VW4We-znyJl4io05lE7ys5dwONVfQICXOTqYZHTmIXs/jY1xyN8yLd34gG1Uan9MXGM26BM\"",
+        "actor": {
+            "email": "jsa@riverdalecloud.com",
+            "profileId": "115846707314682005279"
+        },
+        "ipAddress": "36.255.87.2",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_failure",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "google_password"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "none"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-11-28T08:21:02.361Z",
+            "uniqueQualifier": "-2146236557565337997",
+            "applicationName": "login",
+            "customerId": "C04f0lcev"
+        },
+        "etag": "\"VW4We-znyJl4io05lE7ys5dwONVfQICXOTqYZHTmIXs/rku97l1DpGposAh-ITSSuZSffSM\"",
+        "actor": {
+            "email": "jsa@riverdalecloud.com",
+            "profileId": "115846707314682005279"
+        },
+        "ipAddress": "36.255.87.2",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_failure",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "password"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-11-28T08:21:02.361Z",
+            "uniqueQualifier": "8448796407595246636",
+            "applicationName": "login",
+            "customerId": "C04f0lcev"
+        },
+        "etag": "\"VW4We-znyJl4io05lE7ys5dwONVfQICXOTqYZHTmIXs/IlpvLJ4LU7WPUc9E6Gr8vvGyiNE\"",
+        "actor": {
+            "email": "jsa@riverdalecloud.com",
+            "profileId": "115846707314682005279"
+        },
+        "ipAddress": "36.255.87.2",
+        "events": [
+            {
+                "type": "login",
+                "name": "risky_sensitive_action_blocked",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "password"
+                        ]
+                    },
+                    {
+                        "name": "is_suspicious",
+                        "boolValue": true
+                    },
+                    {
+                        "name": "sensitive_action_name",
+                        "value": "Access admin.google.com"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-11-28T08:21:02.000Z",
+            "uniqueQualifier": "1441632228294272148",
+            "applicationName": "login",
+            "customerId": "C04f0lcev"
+        },
+        "etag": "\"VW4We-znyJl4io05lE7ys5dwONVfQICXOTqYZHTmIXs/0DE5d3cHReiMDBWF0ABu1wI5I6c\"",
+        "actor": {
+            "callerType": "KEY",
+            "key": "Google"
+        },
+        "ipAddress": "36.255.87.2",
+        "events": [
+            {
+                "type": "account_warning",
+                "name": "suspicious_login",
+                "parameters": [
+                    {
+                        "name": "affected_email_address",
+                        "value": "jsa@riverdalecloud.com"
+                    },
+                    {
+                        "name": "login_timestamp",
+                        "intValue": "1732782062000000"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-11-28T05:53:12.875Z",
+            "uniqueQualifier": "-4454577946318551872",
+            "applicationName": "login",
+            "customerId": "C04f0lcev"
+        },
+        "etag": "\"VW4We-znyJl4io05lE7ys5dwONVfQICXOTqYZHTmIXs/4lfrQ3z4hXiu8uGrtd-MWizK_pM\"",
+        "actor": {
+            "email": "fayyaz@riverdalecloud.com",
+            "profileId": "108142489210640304413"
+        },
+        "ipAddress": "2001:8003:26dd:e400:7509:b557:95a0:59b7",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_success",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "google_password"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "password"
+                        ]
+                    },
+                    {
+                        "name": "is_suspicious",
+                        "boolValue": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-11-28T05:51:52.112Z",
+            "uniqueQualifier": "-4206074497687927981",
+            "applicationName": "login",
+            "customerId": "C04f0lcev"
+        },
+        "etag": "\"VW4We-znyJl4io05lE7ys5dwONVfQICXOTqYZHTmIXs/lGQFs600V65Sm1yZIBJkwNtUU2E\"",
+        "actor": {
+            "email": "jsa@riverdalecloud.com",
+            "profileId": "115846707314682005279"
+        },
+        "ipAddress": "2001:8003:26dd:e400:7509:b557:95a0:59b7",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_success",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "exchange"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "none"
+                        ]
+                    },
+                    {
+                        "name": "is_suspicious",
+                        "boolValue": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-11-28T05:51:51.243Z",
+            "uniqueQualifier": "-7738872087932567925",
+            "applicationName": "login",
+            "customerId": "C04f0lcev"
+        },
+        "etag": "\"VW4We-znyJl4io05lE7ys5dwONVfQICXOTqYZHTmIXs/nGAI2Nl_5VI5nyvmRuc30p-qMXc\"",
+        "actor": {
+            "callerType": "USER",
+            "email": "jsa@riverdalecloud.com",
+            "profileId": "115846707314682005279"
+        },
+        "ipAddress": "2001:8003:26dd:e400:7509:b557:95a0:59b7",
+        "events": [
+            {
+                "type": "password_change",
+                "name": "password_edit"
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-11-28T05:51:31.385Z",
+            "uniqueQualifier": "2458860691777146128",
+            "applicationName": "login",
+            "customerId": "C04f0lcev"
+        },
+        "etag": "\"VW4We-znyJl4io05lE7ys5dwONVfQICXOTqYZHTmIXs/zi96neDP2D7snPxEkZhJQQMHJ80\"",
+        "actor": {
+            "email": "jsa@riverdalecloud.com",
+            "profileId": "115846707314682005279"
+        },
+        "ipAddress": "2001:8003:26dd:e400:7509:b557:95a0:59b7",
+        "events": [
+            {
+                "type": "login",
+                "name": "risky_sensitive_action_allowed",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "none"
+                        ]
+                    },
+                    {
+                        "name": "is_suspicious",
+                        "boolValue": true
+                    },
+                    {
+                        "name": "sensitive_action_name",
+                        "value": "Change password"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-11-28T05:51:31.385Z",
+            "uniqueQualifier": "3007357479741519949",
+            "applicationName": "login",
+            "customerId": "C04f0lcev"
+        },
+        "etag": "\"VW4We-znyJl4io05lE7ys5dwONVfQICXOTqYZHTmIXs/fngp86NfzdhT4jrB0CCs7-OyJxQ\"",
+        "actor": {
+            "email": "jsa@riverdalecloud.com",
+            "profileId": "115846707314682005279"
+        },
+        "ipAddress": "2001:8003:26dd:e400:7509:b557:95a0:59b7",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_success",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "none"
+                        ]
+                    },
+                    {
+                        "name": "is_suspicious",
+                        "boolValue": true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-11-28T05:49:30.842Z",
+            "uniqueQualifier": "-5685518689664336999",
+            "applicationName": "login",
+            "customerId": "C04f0lcev"
+        },
+        "etag": "\"VW4We-znyJl4io05lE7ys5dwONVfQICXOTqYZHTmIXs/4JUJxdpvEtJ-ktwSFZRwZBjQwM8\"",
+        "actor": {
+            "email": "jsa@riverdalecloud.com",
+            "profileId": "115846707314682005279"
+        },
+        "ipAddress": "2001:8003:26dd:e400:7509:b557:95a0:59b7",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_success",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "google_password"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "password"
+                        ]
+                    },
+                    {
+                        "name": "is_suspicious",
+                        "boolValue": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-11-25T06:42:57.110Z",
+            "uniqueQualifier": "-1335605847680923511",
+            "applicationName": "login",
+            "customerId": "C04f0lcev"
+        },
+        "etag": "\"VW4We-znyJl4io05lE7ys5dwONVfQICXOTqYZHTmIXs/am2voZvY3g90hkEmKl9L6Uog66c\"",
+        "actor": {
+            "email": "john@riverdalecloud.com",
+            "profileId": "118254042510394075046"
+        },
+        "ipAddress": "2001:8003:26dd:e400:45f4:47c:f430:9a7b",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_success",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "password"
+                        ]
+                    },
+                    {
+                        "name": "is_suspicious",
+                        "boolValue": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-11-25T03:33:03.827Z",
+            "uniqueQualifier": "-5138829839153176474",
+            "applicationName": "login",
+            "customerId": "C04f0lcev"
+        },
+        "etag": "\"VW4We-znyJl4io05lE7ys5dwONVfQICXOTqYZHTmIXs/qd5gCiqrnOCc_AZaqYsLoCjaDQg\"",
+        "actor": {
+            "email": "john@riverdalecloud.com",
+            "profileId": "118254042510394075046"
+        },
+        "ipAddress": "2001:8003:26dd:e400:45f4:47c:f430:9a7b",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_success",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "google_password"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "password"
+                        ]
+                    },
+                    {
+                        "name": "is_suspicious",
+                        "boolValue": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-11-13T02:48:21.237Z",
+            "uniqueQualifier": "8793727953269975356",
+            "applicationName": "login",
+            "customerId": "C04f0lcev"
+        },
+        "etag": "\"VW4We-znyJl4io05lE7ys5dwONVfQICXOTqYZHTmIXs/ZtvxYK8hdMm6dsxOB8xYxqwH3S8\"",
+        "actor": {
+            "email": "fayyaz@riverdalecloud.com",
+            "profileId": "108142489210640304413"
+        },
+        "ipAddress": "101.191.161.165",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_success",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "google_password"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "none"
+                        ]
+                    },
+                    {
+                        "name": "is_suspicious",
+                        "boolValue": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-11-13T02:48:20.933Z",
+            "uniqueQualifier": "6808911797167628129",
+            "applicationName": "login",
+            "customerId": "C04f0lcev"
+        },
+        "etag": "\"VW4We-znyJl4io05lE7ys5dwONVfQICXOTqYZHTmIXs/wsm07bKRD2cSbEDU82wFutU-hPU\"",
+        "actor": {
+            "callerType": "USER",
+            "email": "fayyaz@riverdalecloud.com",
+            "profileId": "108142489210640304413"
+        },
+        "ipAddress": "101.191.161.165",
+        "events": [
+            {
+                "type": "password_change",
+                "name": "password_edit"
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-11-13T02:37:28.806Z",
+            "uniqueQualifier": "-7655121491595387648",
+            "applicationName": "login",
+            "customerId": "C04f0lcev"
+        },
+        "etag": "\"VW4We-znyJl4io05lE7ys5dwONVfQICXOTqYZHTmIXs/0xH5Wytef0z2cFZH4YH4qV1SPQo\"",
+        "actor": {
+            "email": "john@riverdalecloud.com",
+            "profileId": "118254042510394075046"
+        },
+        "ipAddress": "2001:8003:26dd:e400:88a2:ec11:2753:1f52",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_success",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "google_password"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "password"
+                        ]
+                    },
+                    {
+                        "name": "is_suspicious",
+                        "boolValue": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-11-13T02:35:45.782Z",
+            "uniqueQualifier": "2181969571807305337",
+            "applicationName": "login",
+            "customerId": "C04f0lcev"
+        },
+        "etag": "\"VW4We-znyJl4io05lE7ys5dwONVfQICXOTqYZHTmIXs/0hM29AUIwxktCwmjkAvLL-mLghI\"",
+        "actor": {
+            "email": "jsa@riverdalecloud.com",
+            "profileId": "115846707314682005279"
+        },
+        "ipAddress": "2001:8003:26dd:e400:88a2:ec11:2753:1f52",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_success",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "google_password"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "none"
+                        ]
+                    },
+                    {
+                        "name": "is_suspicious",
+                        "boolValue": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-11-13T02:35:45.477Z",
+            "uniqueQualifier": "-1919298412779681301",
+            "applicationName": "login",
+            "customerId": "C04f0lcev"
+        },
+        "etag": "\"VW4We-znyJl4io05lE7ys5dwONVfQICXOTqYZHTmIXs/5zGH4iie8hE83kyOHdXYOHnn7uU\"",
+        "actor": {
+            "callerType": "USER",
+            "email": "jsa@riverdalecloud.com",
+            "profileId": "115846707314682005279"
+        },
+        "ipAddress": "2001:8003:26dd:e400:88a2:ec11:2753:1f52",
+        "events": [
+            {
+                "type": "password_change",
+                "name": "password_edit"
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-11-12T22:57:09.092Z",
+            "uniqueQualifier": "-1863771281020856230",
+            "applicationName": "login",
+            "customerId": "C04f0lcev"
+        },
+        "etag": "\"VW4We-znyJl4io05lE7ys5dwONVfQICXOTqYZHTmIXs/AyMJRvznGXCyUkG3vwaBV9iIdi0\"",
+        "actor": {
+            "email": "john@riverdalecloud.com",
+            "profileId": "118254042510394075046"
+        },
+        "ipAddress": "120.17.108.41",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_success",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "password"
+                        ]
+                    },
+                    {
+                        "name": "is_suspicious",
+                        "boolValue": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-11-12T22:54:33.680Z",
+            "uniqueQualifier": "-6434943817029902894",
+            "applicationName": "login",
+            "customerId": "C04f0lcev"
+        },
+        "etag": "\"VW4We-znyJl4io05lE7ys5dwONVfQICXOTqYZHTmIXs/nJoeA7StJRMnO_h3mm83FSewEe4\"",
+        "actor": {
+            "email": "john@riverdalecloud.com",
+            "profileId": "118254042510394075046"
+        },
+        "ipAddress": "120.17.108.41",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_success",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "password",
+                            "password"
+                        ]
+                    },
+                    {
+                        "name": "is_suspicious",
+                        "boolValue": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-11-11T03:04:05.700Z",
+            "uniqueQualifier": "2219174119929038511",
+            "applicationName": "login",
+            "customerId": "C04f0lcev"
+        },
+        "etag": "\"VW4We-znyJl4io05lE7ys5dwONVfQICXOTqYZHTmIXs/6ojtyMJknbmLTufJIKMMB0OluVc\"",
+        "actor": {
+            "email": "john@riverdalecloud.com",
+            "profileId": "118254042510394075046"
+        },
+        "ipAddress": "2001:8003:26dd:e400:ac6d:62e:f7fe:8311",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_success",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "google_password"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "password"
+                        ]
+                    },
+                    {
+                        "name": "is_suspicious",
+                        "boolValue": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-10-29T06:03:07.619Z",
+            "uniqueQualifier": "-1928201588850202636",
+            "applicationName": "login",
+            "customerId": "C04f0lcev"
+        },
+        "etag": "\"VW4We-znyJl4io05lE7ys5dwONVfQICXOTqYZHTmIXs/UAbeEVucWQePX1HaSavweG9QiGI\"",
+        "actor": {
+            "email": "john@riverdalecloud.com",
+            "profileId": "118254042510394075046"
+        },
+        "ipAddress": "2001:8003:26dd:e400:c413:bff4:948a:32d4",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_success",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "google_password"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "password"
+                        ]
+                    },
+                    {
+                        "name": "is_suspicious",
+                        "boolValue": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-10-28T00:10:58.279Z",
+            "uniqueQualifier": "5770286062557036638",
+            "applicationName": "login",
+            "customerId": "C04f0lcev"
+        },
+        "etag": "\"VW4We-znyJl4io05lE7ys5dwONVfQICXOTqYZHTmIXs/4T49xMZsbQyfFXTd8nevAx3Qk8A\"",
+        "actor": {
+            "email": "john@riverdalecloud.com",
+            "profileId": "118254042510394075046"
+        },
+        "ipAddress": "2001:8003:26dd:e400:6d28:7ffb:dc7a:3cc0",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_success",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "password"
+                        ]
+                    },
+                    {
+                        "name": "is_suspicious",
+                        "boolValue": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-10-20T08:50:00.444Z",
+            "uniqueQualifier": "1917481955939752868",
+            "applicationName": "login",
+            "customerId": "C04f0lcev"
+        },
+        "etag": "\"VW4We-znyJl4io05lE7ys5dwONVfQICXOTqYZHTmIXs/yjxm4Vm8V-pW4_dqLb0VSsgKuUA\"",
+        "actor": {
+            "email": "jsa@riverdalecloud.com",
+            "profileId": "115846707314682005279"
+        },
+        "ipAddress": "2001:8003:2c2c:2200:457b:a67f:e7b4:56bc",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_success",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "google_password"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "password"
+                        ]
+                    },
+                    {
+                        "name": "is_suspicious",
+                        "boolValue": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-10-15T01:56:17.382Z",
+            "uniqueQualifier": "-6235679462104879678",
+            "applicationName": "login",
+            "customerId": "C04f0lcev"
+        },
+        "etag": "\"VW4We-znyJl4io05lE7ys5dwONVfQICXOTqYZHTmIXs/IttB43Fxpzr2vfTGpt4vdU51zYE\"",
+        "actor": {
+            "email": "jsa@riverdalecloud.com",
+            "profileId": "115846707314682005279"
+        },
+        "ipAddress": "203.38.48.198",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_success",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "google_password"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "password"
+                        ]
+                    },
+                    {
+                        "name": "is_suspicious",
+                        "boolValue": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-10-17T05:11:07.061Z",
+            "uniqueQualifier": "1969267995342230895",
+            "applicationName": "login",
+            "customerId": "C016r41nq"
+        },
+        "etag": "\"0E0Zu2uqThLf3wLZlWSxPah7UTNOLK0J_CRAZMNGMLE/07fZyTvEIuVsNas_o_LWu992BAA\"",
+        "actor": {
+            "email": "chirag.srinivas@cybercellar.in",
+            "profileId": "116735122405737892272"
+        },
+        "ipAddress": "106.51.188.22",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_success",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "password"
+                        ]
+                    },
+                    {
+                        "name": "is_suspicious",
+                        "boolValue": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-10-17T05:07:22.512Z",
+            "uniqueQualifier": "-5362307285869880381",
+            "applicationName": "login",
+            "customerId": "C016r41nq"
+        },
+        "etag": "\"0E0Zu2uqThLf3wLZlWSxPah7UTNOLK0J_CRAZMNGMLE/HKF9Doc2Ga2_MXNJ0SREarRJnsI\"",
+        "actor": {
+            "email": "chirag.srinivas@cybercellar.in",
+            "profileId": "116735122405737892272"
+        },
+        "ipAddress": "106.51.188.22",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_success",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "password"
+                        ]
+                    },
+                    {
+                        "name": "is_suspicious",
+                        "boolValue": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-10-16T13:32:52.874Z",
+            "uniqueQualifier": "-3245146318058467569",
+            "applicationName": "login",
+            "customerId": "C016r41nq"
+        },
+        "etag": "\"0E0Zu2uqThLf3wLZlWSxPah7UTNOLK0J_CRAZMNGMLE/mdPW7cBqngN0uAk5JTzk1WzzJno\"",
+        "actor": {
+            "email": "chirag.srinivas@cybercellar.in",
+            "profileId": "116735122405737892272"
+        },
+        "ipAddress": "59.182.241.99",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_success",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "password"
+                        ]
+                    },
+                    {
+                        "name": "is_suspicious",
+                        "boolValue": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-10-16T13:15:06.968Z",
+            "uniqueQualifier": "-3448248514139590907",
+            "applicationName": "login",
+            "customerId": "C016r41nq"
+        },
+        "etag": "\"0E0Zu2uqThLf3wLZlWSxPah7UTNOLK0J_CRAZMNGMLE/z5glMIqwySTFHEDzSQX0HnjpNZE\"",
+        "actor": {
+            "email": "chirag.srinivas@cybercellar.in",
+            "profileId": "116735122405737892272"
+        },
+        "ipAddress": "59.182.241.99",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_success",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "password"
+                        ]
+                    },
+                    {
+                        "name": "is_suspicious",
+                        "boolValue": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-10-16T10:35:10.974Z",
+            "uniqueQualifier": "7582327657775105274",
+            "applicationName": "login",
+            "customerId": "C016r41nq"
+        },
+        "etag": "\"0E0Zu2uqThLf3wLZlWSxPah7UTNOLK0J_CRAZMNGMLE/t1qcVucfZ3q7AWoAsGTHs3X49nY\"",
+        "actor": {
+            "email": "chirag.srinivas@cybercellar.in",
+            "profileId": "116735122405737892272"
+        },
+        "ipAddress": "59.182.241.99",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_success",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "password"
+                        ]
+                    },
+                    {
+                        "name": "is_suspicious",
+                        "boolValue": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-10-15T05:59:30.168Z",
+            "uniqueQualifier": "-7725502173406606950",
+            "applicationName": "login",
+            "customerId": "C016r41nq"
+        },
+        "etag": "\"0E0Zu2uqThLf3wLZlWSxPah7UTNOLK0J_CRAZMNGMLE/Ke8pxHzXVU_3_7XhmkSy6BGhwj4\"",
+        "actor": {
+            "email": "chirag.srinivas@cybercellar.in",
+            "profileId": "116735122405737892272"
+        },
+        "ipAddress": "106.51.188.22",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_success",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "password"
+                        ]
+                    },
+                    {
+                        "name": "is_suspicious",
+                        "boolValue": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-10-15T05:55:07.929Z",
+            "uniqueQualifier": "3606187901857660401",
+            "applicationName": "login",
+            "customerId": "C016r41nq"
+        },
+        "etag": "\"0E0Zu2uqThLf3wLZlWSxPah7UTNOLK0J_CRAZMNGMLE/XwOQ-HjgdnueIStFgSIpOBTsiYM\"",
+        "actor": {
+            "email": "chirag.srinivas@cybercellar.in",
+            "profileId": "116735122405737892272"
+        },
+        "ipAddress": "106.51.188.22",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_success",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "password"
+                        ]
+                    },
+                    {
+                        "name": "is_suspicious",
+                        "boolValue": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-10-14T04:38:15.525Z",
+            "uniqueQualifier": "-855309778457869953",
+            "applicationName": "login",
+            "customerId": "C016r41nq"
+        },
+        "etag": "\"0E0Zu2uqThLf3wLZlWSxPah7UTNOLK0J_CRAZMNGMLE/l5wCL8zYw6yRAQ_ki272lUM_KCg\"",
+        "actor": {
+            "email": "chirag.srinivas@cybercellar.in",
+            "profileId": "116735122405737892272"
+        },
+        "ipAddress": "82.167.205.32",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_success",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "password"
+                        ]
+                    },
+                    {
+                        "name": "is_suspicious",
+                        "boolValue": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-10-10T07:57:45.556Z",
+            "uniqueQualifier": "-2606965018200649840",
+            "applicationName": "login",
+            "customerId": "C016r41nq"
+        },
+        "etag": "\"0E0Zu2uqThLf3wLZlWSxPah7UTNOLK0J_CRAZMNGMLE/a0tc4ZIQ3M-xPMq8AUhv2VL5Iow\"",
+        "actor": {
+            "email": "chirag.srinivas@cybercellar.in",
+            "profileId": "116735122405737892272"
+        },
+        "ipAddress": "117.200.190.3",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_success",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "password"
+                        ]
+                    },
+                    {
+                        "name": "is_suspicious",
+                        "boolValue": true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-10-10T07:57:35.940Z",
+            "uniqueQualifier": "247758541971014449",
+            "applicationName": "login",
+            "customerId": "C016r41nq"
+        },
+        "etag": "\"0E0Zu2uqThLf3wLZlWSxPah7UTNOLK0J_CRAZMNGMLE/TPRSXcz4mYxVt5pAhzd84m3IeEc\"",
+        "actor": {
+            "email": "chirag.srinivas@cybercellar.in",
+            "profileId": "116735122405737892272"
+        },
+        "ipAddress": "117.200.190.3",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_success",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "password"
+                        ]
+                    },
+                    {
+                        "name": "is_suspicious",
+                        "boolValue": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-10-10T07:55:10.530Z",
+            "uniqueQualifier": "2167547092091028072",
+            "applicationName": "login",
+            "customerId": "C016r41nq"
+        },
+        "etag": "\"0E0Zu2uqThLf3wLZlWSxPah7UTNOLK0J_CRAZMNGMLE/iORVdYjx9l6bYs0k0fUM2xct1GM\"",
+        "actor": {
+            "email": "chirag.srinivas@cybercellar.in",
+            "profileId": "116735122405737892272"
+        },
+        "ipAddress": "117.200.190.3",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_failure",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "none"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-10-10T07:55:10.530Z",
+            "uniqueQualifier": "605010283007778759",
+            "applicationName": "login",
+            "customerId": "C016r41nq"
+        },
+        "etag": "\"0E0Zu2uqThLf3wLZlWSxPah7UTNOLK0J_CRAZMNGMLE/ioj1wc151fTUitksAvKHMVoHmi8\"",
+        "actor": {
+            "email": "chirag.srinivas@cybercellar.in",
+            "profileId": "116735122405737892272"
+        },
+        "ipAddress": "117.200.190.3",
+        "events": [
+            {
+                "type": "login",
+                "name": "risky_sensitive_action_blocked",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "none"
+                        ]
+                    },
+                    {
+                        "name": "is_suspicious",
+                        "boolValue": true
+                    },
+                    {
+                        "name": "sensitive_action_name",
+                        "value": "Access admin.google.com"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-10-10T07:55:09.630Z",
+            "uniqueQualifier": "-1851414562593657998",
+            "applicationName": "login",
+            "customerId": "C016r41nq"
+        },
+        "etag": "\"0E0Zu2uqThLf3wLZlWSxPah7UTNOLK0J_CRAZMNGMLE/8eO7EbttLKZoStn99fczxyqIkHk\"",
+        "actor": {
+            "email": "chirag.srinivas@cybercellar.in",
+            "profileId": "116735122405737892272"
+        },
+        "ipAddress": "117.200.190.3",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_failure",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "none"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-10-09T05:46:38.859Z",
+            "uniqueQualifier": "4910461364833896419",
+            "applicationName": "login",
+            "customerId": "C016r41nq"
+        },
+        "etag": "\"0E0Zu2uqThLf3wLZlWSxPah7UTNOLK0J_CRAZMNGMLE/_mzOrFd1N8Lg9htTzr2VwtnT5FU\"",
+        "actor": {
+            "email": "chirag.srinivas@cybercellar.in",
+            "profileId": "116735122405737892272"
+        },
+        "ipAddress": "51.15.78.81",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_success",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "password"
+                        ]
+                    },
+                    {
+                        "name": "is_suspicious",
+                        "boolValue": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-10-09T04:29:43.081Z",
+            "uniqueQualifier": "3215791842776174305",
+            "applicationName": "login",
+            "customerId": "C016r41nq"
+        },
+        "etag": "\"0E0Zu2uqThLf3wLZlWSxPah7UTNOLK0J_CRAZMNGMLE/L1fP6hxCe-4NWw9onG--JpYhmQs\"",
+        "actor": {
+            "email": "chirag.srinivas@cybercellar.in",
+            "profileId": "116735122405737892272"
+        },
+        "ipAddress": "59.96.166.117",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_failure",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "none"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-10-08T09:37:26.753Z",
+            "uniqueQualifier": "-8216864642522384295",
+            "applicationName": "login",
+            "customerId": "C016r41nq"
+        },
+        "etag": "\"0E0Zu2uqThLf3wLZlWSxPah7UTNOLK0J_CRAZMNGMLE/XShMH6nFP4AvbRrOprKHM2yIw18\"",
+        "actor": {
+            "email": "chirag.srinivas@cybercellar.in",
+            "profileId": "116735122405737892272"
+        },
+        "ipAddress": "59.96.166.117",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_success",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "none"
+                        ]
+                    },
+                    {
+                        "name": "is_suspicious",
+                        "boolValue": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-10-08T09:31:14.338Z",
+            "uniqueQualifier": "135270919430136878",
+            "applicationName": "login",
+            "customerId": "C016r41nq"
+        },
+        "etag": "\"0E0Zu2uqThLf3wLZlWSxPah7UTNOLK0J_CRAZMNGMLE/NlVv0tXmXNk9X-ow5_Jd79amFAo\"",
+        "actor": {
+            "email": "chirag.srinivas@cybercellar.in",
+            "profileId": "116735122405737892272"
+        },
+        "ipAddress": "59.96.166.117",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_success",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "none"
+                        ]
+                    },
+                    {
+                        "name": "is_suspicious",
+                        "boolValue": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-10-08T09:26:24.008Z",
+            "uniqueQualifier": "3553913819450299886",
+            "applicationName": "login",
+            "customerId": "C016r41nq"
+        },
+        "etag": "\"0E0Zu2uqThLf3wLZlWSxPah7UTNOLK0J_CRAZMNGMLE/PGrK4i2J2t6u7wvO6jDVyJU2gxI\"",
+        "actor": {
+            "email": "chirag.srinivas@cybercellar.in",
+            "profileId": "116735122405737892272"
+        },
+        "ipAddress": "59.96.166.117",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_success",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "none"
+                        ]
+                    },
+                    {
+                        "name": "is_suspicious",
+                        "boolValue": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-10-08T09:05:48.022Z",
+            "uniqueQualifier": "2446552011574269815",
+            "applicationName": "login",
+            "customerId": "C016r41nq"
+        },
+        "etag": "\"0E0Zu2uqThLf3wLZlWSxPah7UTNOLK0J_CRAZMNGMLE/20eQRkLIpdRBp90iDSM1R8x4T50\"",
+        "actor": {
+            "email": "chirag.srinivas@cybercellar.in",
+            "profileId": "116735122405737892272"
+        },
+        "ipAddress": "59.96.166.117",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_success",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "password"
+                        ]
+                    },
+                    {
+                        "name": "is_suspicious",
+                        "boolValue": true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-10-04T06:39:46.112Z",
+            "uniqueQualifier": "5942632956820940160",
+            "applicationName": "login",
+            "customerId": "C016r41nq"
+        },
+        "etag": "\"0E0Zu2uqThLf3wLZlWSxPah7UTNOLK0J_CRAZMNGMLE/6IIylFYmoLxVtUo05bXEMGEof3U\"",
+        "actor": {
+            "email": "chirag.srinivas@cybercellar.in",
+            "profileId": "116735122405737892272"
+        },
+        "ipAddress": "106.51.188.22",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_success",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "google_password"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "password"
+                        ]
+                    },
+                    {
+                        "name": "is_suspicious",
+                        "boolValue": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-10-04T06:19:29.367Z",
+            "uniqueQualifier": "9024964617965883982",
+            "applicationName": "login",
+            "customerId": "C016r41nq"
+        },
+        "etag": "\"0E0Zu2uqThLf3wLZlWSxPah7UTNOLK0J_CRAZMNGMLE/LwpKw1flT97lnJ23pSXDN1ifNuk\"",
+        "actor": {
+            "email": "chirag.srinivas@cybercellar.in",
+            "profileId": "116735122405737892272"
+        },
+        "ipAddress": "117.252.197.184",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_success",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "password"
+                        ]
+                    },
+                    {
+                        "name": "is_suspicious",
+                        "boolValue": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-10-04T05:30:43.987Z",
+            "uniqueQualifier": "1320683112937055827",
+            "applicationName": "login",
+            "customerId": "C016r41nq"
+        },
+        "etag": "\"0E0Zu2uqThLf3wLZlWSxPah7UTNOLK0J_CRAZMNGMLE/XZ48LXU-qDbWzgeXTph4M5QMrLE\"",
+        "actor": {
+            "email": "chirag.srinivas@cybercellar.in",
+            "profileId": "116735122405737892272"
+        },
+        "ipAddress": "82.167.220.154",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_success",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "password"
+                        ]
+                    },
+                    {
+                        "name": "is_suspicious",
+                        "boolValue": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-10-02T17:19:31.522Z",
+            "uniqueQualifier": "3976865875839659377",
+            "applicationName": "login",
+            "customerId": "C016r41nq"
+        },
+        "etag": "\"0E0Zu2uqThLf3wLZlWSxPah7UTNOLK0J_CRAZMNGMLE/Fybo2bXnkoVCiN0fztPkPfnce0w\"",
+        "actor": {
+            "email": "chirag.srinivas@cybercellar.in",
+            "profileId": "116735122405737892272"
+        },
+        "ipAddress": "59.88.180.191",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_failure",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "none"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-10-02T12:50:52.739Z",
+            "uniqueQualifier": "8419416209038355028",
+            "applicationName": "login",
+            "customerId": "C016r41nq"
+        },
+        "etag": "\"0E0Zu2uqThLf3wLZlWSxPah7UTNOLK0J_CRAZMNGMLE/MkkAY62cTgiNRrxW6qeuK_RapTQ\"",
+        "actor": {
+            "email": "chirag.srinivas@cybercellar.in",
+            "profileId": "116735122405737892272"
+        },
+        "ipAddress": "59.88.180.191",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_failure",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "none"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-10-01T08:51:26.854Z",
+            "uniqueQualifier": "-8892745994569968259",
+            "applicationName": "login",
+            "customerId": "C016r41nq"
+        },
+        "etag": "\"0E0Zu2uqThLf3wLZlWSxPah7UTNOLK0J_CRAZMNGMLE/mLhe_X3FuVuJJwGzCFh1Rnr7uJk\"",
+        "actor": {
+            "email": "chirag.srinivas@cybercellar.in",
+            "profileId": "116735122405737892272"
+        },
+        "ipAddress": "59.182.240.154",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_success",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "password"
+                        ]
+                    },
+                    {
+                        "name": "is_suspicious",
+                        "boolValue": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-10-01T03:57:58.196Z",
+            "uniqueQualifier": "-4762386373409883456",
+            "applicationName": "login",
+            "customerId": "C016r41nq"
+        },
+        "etag": "\"0E0Zu2uqThLf3wLZlWSxPah7UTNOLK0J_CRAZMNGMLE/xtGiCHMhM7NZpx4ZeowNZdgsw1A\"",
+        "actor": {
+            "email": "chirag.srinivas@cybercellar.in",
+            "profileId": "116735122405737892272"
+        },
+        "ipAddress": "59.182.240.154",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_success",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "password"
+                        ]
+                    },
+                    {
+                        "name": "is_suspicious",
+                        "boolValue": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-10-01T03:55:55.678Z",
+            "uniqueQualifier": "2205111805842694647",
+            "applicationName": "login",
+            "customerId": "C016r41nq"
+        },
+        "etag": "\"0E0Zu2uqThLf3wLZlWSxPah7UTNOLK0J_CRAZMNGMLE/t6k0iXySPOjUIbYAYkeBCdTKYJQ\"",
+        "actor": {
+            "email": "chirag.srinivas@cybercellar.in",
+            "profileId": "116735122405737892272"
+        },
+        "ipAddress": "59.182.240.154",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_failure",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "password"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-10-01T03:55:55.678Z",
+            "uniqueQualifier": "5293576490382393855",
+            "applicationName": "login",
+            "customerId": "C016r41nq"
+        },
+        "etag": "\"0E0Zu2uqThLf3wLZlWSxPah7UTNOLK0J_CRAZMNGMLE/EHTa3k2g1zSoMQtZclxS2akCDmo\"",
+        "actor": {
+            "email": "chirag.srinivas@cybercellar.in",
+            "profileId": "116735122405737892272"
+        },
+        "ipAddress": "59.182.240.154",
+        "events": [
+            {
+                "type": "login",
+                "name": "risky_sensitive_action_blocked",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "password"
+                        ]
+                    },
+                    {
+                        "name": "is_suspicious",
+                        "boolValue": true
+                    },
+                    {
+                        "name": "sensitive_action_name",
+                        "value": "Access admin.google.com"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-10-01T03:42:41.538Z",
+            "uniqueQualifier": "-7873690047388971491",
+            "applicationName": "login",
+            "customerId": "C016r41nq"
+        },
+        "etag": "\"0E0Zu2uqThLf3wLZlWSxPah7UTNOLK0J_CRAZMNGMLE/KWS97bUbfIGZJ50q3zxRMfD1unk\"",
+        "actor": {
+            "email": "chirag.srinivas@cybercellar.in",
+            "profileId": "116735122405737892272"
+        },
+        "ipAddress": "59.182.240.154",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_failure",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "none"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-09-30T07:02:33.835Z",
+            "uniqueQualifier": "8551822020089690978",
+            "applicationName": "login",
+            "customerId": "C016r41nq"
+        },
+        "etag": "\"0E0Zu2uqThLf3wLZlWSxPah7UTNOLK0J_CRAZMNGMLE/pwQgQ-_C3KUDmh2R3Fb58WDCDS4\"",
+        "actor": {
+            "email": "chirag.srinivas@cybercellar.in",
+            "profileId": "116735122405737892272"
+        },
+        "ipAddress": "117.252.193.128",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_success",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "password"
+                        ]
+                    },
+                    {
+                        "name": "is_suspicious",
+                        "boolValue": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-09-30T04:38:55.512Z",
+            "uniqueQualifier": "944914019633603436",
+            "applicationName": "login",
+            "customerId": "C016r41nq"
+        },
+        "etag": "\"0E0Zu2uqThLf3wLZlWSxPah7UTNOLK0J_CRAZMNGMLE/H5JVxMkEjWfJ26tb2mDU-On_5lU\"",
+        "actor": {
+            "email": "chirag.srinivas@cybercellar.in",
+            "profileId": "116735122405737892272"
+        },
+        "ipAddress": "117.252.193.128",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_success",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "none"
+                        ]
+                    },
+                    {
+                        "name": "is_suspicious",
+                        "boolValue": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-09-30T04:38:00.787Z",
+            "uniqueQualifier": "4769606306213687165",
+            "applicationName": "login",
+            "customerId": "C016r41nq"
+        },
+        "etag": "\"0E0Zu2uqThLf3wLZlWSxPah7UTNOLK0J_CRAZMNGMLE/DUd1hHvE93q1XLnmDo1VzCnZmzQ\"",
+        "actor": {
+            "email": "chirag.srinivas@cybercellar.in",
+            "profileId": "116735122405737892272"
+        },
+        "ipAddress": "117.252.193.128",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_success",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "password"
+                        ]
+                    },
+                    {
+                        "name": "is_suspicious",
+                        "boolValue": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-09-30T03:07:40.147Z",
+            "uniqueQualifier": "5303645163051905071",
+            "applicationName": "login",
+            "customerId": "C016r41nq"
+        },
+        "etag": "\"0E0Zu2uqThLf3wLZlWSxPah7UTNOLK0J_CRAZMNGMLE/RIfytldqKxtWA5KyQs7ZMSjR6aQ\"",
+        "actor": {
+            "email": "chirag.srinivas@cybercellar.in",
+            "profileId": "116735122405737892272"
+        },
+        "ipAddress": "82.167.220.154",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_success",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "none"
+                        ]
+                    },
+                    {
+                        "name": "is_suspicious",
+                        "boolValue": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-09-30T03:07:36.544Z",
+            "uniqueQualifier": "-483626796820799078",
+            "applicationName": "login",
+            "customerId": "C016r41nq"
+        },
+        "etag": "\"0E0Zu2uqThLf3wLZlWSxPah7UTNOLK0J_CRAZMNGMLE/ngTNXYWWtt9FutSAo3UbzVO-CqM\"",
+        "actor": {
+            "email": "chirag.srinivas@cybercellar.in",
+            "profileId": "116735122405737892272"
+        },
+        "ipAddress": "82.167.220.154",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_success",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "google_password"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "password"
+                        ]
+                    },
+                    {
+                        "name": "is_suspicious",
+                        "boolValue": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-09-27T06:43:17.180Z",
+            "uniqueQualifier": "5116364994828541060",
+            "applicationName": "login",
+            "customerId": "C016r41nq"
+        },
+        "etag": "\"0E0Zu2uqThLf3wLZlWSxPah7UTNOLK0J_CRAZMNGMLE/YfF9NfuWkPA8oHjWM8YioONhNm0\"",
+        "actor": {
+            "email": "chirag.srinivas@cybercellar.in",
+            "profileId": "116735122405737892272"
+        },
+        "ipAddress": "49.205.138.68",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_failure",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "google_password"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "password"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-09-26T03:47:39.379Z",
+            "uniqueQualifier": "-813860735565563380",
+            "applicationName": "login",
+            "customerId": "C016r41nq"
+        },
+        "etag": "\"0E0Zu2uqThLf3wLZlWSxPah7UTNOLK0J_CRAZMNGMLE/G1oCSgQ9G24dZzhgXfSAe8hzTBs\"",
+        "actor": {
+            "email": "chirag.srinivas@cybercellar.in",
+            "profileId": "116735122405737892272"
+        },
+        "ipAddress": "117.255.86.103",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_success",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "password"
+                        ]
+                    },
+                    {
+                        "name": "is_suspicious",
+                        "boolValue": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-09-26T03:47:18.415Z",
+            "uniqueQualifier": "-2164418240371519557",
+            "applicationName": "login",
+            "customerId": "C016r41nq"
+        },
+        "etag": "\"0E0Zu2uqThLf3wLZlWSxPah7UTNOLK0J_CRAZMNGMLE/bL9WFNQCXUNR5Ddz5IQCAUMvMeM\"",
+        "actor": {
+            "email": "chirag.srinivas@cybercellar.in",
+            "profileId": "116735122405737892272"
+        },
+        "ipAddress": "117.255.86.103",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_failure",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "password"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-09-26T03:47:18.415Z",
+            "uniqueQualifier": "2176430006853619413",
+            "applicationName": "login",
+            "customerId": "C016r41nq"
+        },
+        "etag": "\"0E0Zu2uqThLf3wLZlWSxPah7UTNOLK0J_CRAZMNGMLE/6sBGlWb8igEMi07pnjEy9daRRlk\"",
+        "actor": {
+            "email": "chirag.srinivas@cybercellar.in",
+            "profileId": "116735122405737892272"
+        },
+        "ipAddress": "117.255.86.103",
+        "events": [
+            {
+                "type": "login",
+                "name": "risky_sensitive_action_blocked",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "password"
+                        ]
+                    },
+                    {
+                        "name": "is_suspicious",
+                        "boolValue": true
+                    },
+                    {
+                        "name": "sensitive_action_name",
+                        "value": "Access admin.google.com"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-09-25T06:26:47.694Z",
+            "uniqueQualifier": "2353008246486364730",
+            "applicationName": "login",
+            "customerId": "C016r41nq"
+        },
+        "etag": "\"0E0Zu2uqThLf3wLZlWSxPah7UTNOLK0J_CRAZMNGMLE/LU05MYC-IRRJ9jTqyI8MwcJUiGM\"",
+        "actor": {
+            "email": "chirag.srinivas@cybercellar.in",
+            "profileId": "116735122405737892272"
+        },
+        "ipAddress": "117.201.15.101",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_success",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "password"
+                        ]
+                    },
+                    {
+                        "name": "is_suspicious",
+                        "boolValue": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-09-25T06:25:39.223Z",
+            "uniqueQualifier": "7211641453463765468",
+            "applicationName": "login",
+            "customerId": "C016r41nq"
+        },
+        "etag": "\"0E0Zu2uqThLf3wLZlWSxPah7UTNOLK0J_CRAZMNGMLE/HnzRcssvBYsm7wK3iN_L4eT2Mh0\"",
+        "actor": {
+            "email": "chirag.srinivas@cybercellar.in",
+            "profileId": "116735122405737892272"
+        },
+        "ipAddress": "117.201.15.101",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_failure",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "password"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-09-24T10:45:10.666Z",
+            "uniqueQualifier": "-5803791452352684054",
+            "applicationName": "login",
+            "customerId": "C016r41nq"
+        },
+        "etag": "\"0E0Zu2uqThLf3wLZlWSxPah7UTNOLK0J_CRAZMNGMLE/EeeK0E7FaXHqSY6KldWjuoZeoPc\"",
+        "actor": {
+            "email": "chirag.srinivas@cybercellar.in",
+            "profileId": "116735122405737892272"
+        },
+        "ipAddress": "36.255.87.5",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_success",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "password"
+                        ]
+                    },
+                    {
+                        "name": "is_suspicious",
+                        "boolValue": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-09-24T08:48:39.200Z",
+            "uniqueQualifier": "6923128138232071544",
+            "applicationName": "login",
+            "customerId": "C016r41nq"
+        },
+        "etag": "\"0E0Zu2uqThLf3wLZlWSxPah7UTNOLK0J_CRAZMNGMLE/jcLHFoGmeLAmLMvMUjCu-yNEYpo\"",
+        "actor": {
+            "email": "chirag.srinivas@cybercellar.in",
+            "profileId": "116735122405737892272"
+        },
+        "ipAddress": "36.255.87.5",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_success",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "none"
+                        ]
+                    },
+                    {
+                        "name": "is_suspicious",
+                        "boolValue": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-09-19T06:31:45.297Z",
+            "uniqueQualifier": "-6383136713581054682",
+            "applicationName": "login",
+            "customerId": "C016r41nq"
+        },
+        "etag": "\"0E0Zu2uqThLf3wLZlWSxPah7UTNOLK0J_CRAZMNGMLE/bkN_aDSGnEBHIYtjGNoOJNrd_Qo\"",
+        "actor": {
+            "email": "chirag.srinivas@cybercellar.in",
+            "profileId": "116735122405737892272"
+        },
+        "ipAddress": "106.51.188.22",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_success",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "password"
+                        ]
+                    },
+                    {
+                        "name": "is_suspicious",
+                        "boolValue": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-09-19T06:07:30.918Z",
+            "uniqueQualifier": "1849996027833778893",
+            "applicationName": "login",
+            "customerId": "C016r41nq"
+        },
+        "etag": "\"0E0Zu2uqThLf3wLZlWSxPah7UTNOLK0J_CRAZMNGMLE/6IAocz4ImyrJNcWoV0HlqtBSg6Q\"",
+        "actor": {
+            "email": "chirag.srinivas@cybercellar.in",
+            "profileId": "116735122405737892272"
+        },
+        "ipAddress": "117.200.189.149",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_success",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "none"
+                        ]
+                    },
+                    {
+                        "name": "is_suspicious",
+                        "boolValue": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-09-18T05:50:11.044Z",
+            "uniqueQualifier": "5009266195411598973",
+            "applicationName": "login",
+            "customerId": "C016r41nq"
+        },
+        "etag": "\"0E0Zu2uqThLf3wLZlWSxPah7UTNOLK0J_CRAZMNGMLE/8vEuFMLw8fTcXPtnhHpsX2U5k1c\"",
+        "actor": {
+            "email": "chirag.srinivas@cybercellar.in",
+            "profileId": "116735122405737892272"
+        },
+        "ipAddress": "117.202.77.161",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_success",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "google_password"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "password"
+                        ]
+                    },
+                    {
+                        "name": "is_suspicious",
+                        "boolValue": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-09-18T03:58:36.147Z",
+            "uniqueQualifier": "4237155587492589466",
+            "applicationName": "login",
+            "customerId": "C016r41nq"
+        },
+        "etag": "\"0E0Zu2uqThLf3wLZlWSxPah7UTNOLK0J_CRAZMNGMLE/JPXWbflgGjzh-7C1GJJngidj_O8\"",
+        "actor": {
+            "email": "chirag.srinivas@cybercellar.in",
+            "profileId": "116735122405737892272"
+        },
+        "ipAddress": "117.202.77.161",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_failure",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "password"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-09-18T03:49:41.957Z",
+            "uniqueQualifier": "-6738076340078680401",
+            "applicationName": "login",
+            "customerId": "C016r41nq"
+        },
+        "etag": "\"0E0Zu2uqThLf3wLZlWSxPah7UTNOLK0J_CRAZMNGMLE/tJfg9995RMkISFf8GfsH5NTTvr4\"",
+        "actor": {
+            "email": "chirag.srinivas@cybercellar.in",
+            "profileId": "116735122405737892272"
+        },
+        "ipAddress": "117.202.77.161",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_success",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "password"
+                        ]
+                    },
+                    {
+                        "name": "is_suspicious",
+                        "boolValue": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-09-17T11:56:29.319Z",
+            "uniqueQualifier": "-620615587210293380",
+            "applicationName": "login",
+            "customerId": "C016r41nq"
+        },
+        "etag": "\"0E0Zu2uqThLf3wLZlWSxPah7UTNOLK0J_CRAZMNGMLE/5dQzqhAmyJ2HJ70ePElf7Pgd7kQ\"",
+        "actor": {
+            "email": "chirag.srinivas@cybercellar.in",
+            "profileId": "116735122405737892272"
+        },
+        "ipAddress": "117.202.77.161",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_success",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "password"
+                        ]
+                    },
+                    {
+                        "name": "is_suspicious",
+                        "boolValue": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-09-17T11:55:25.495Z",
+            "uniqueQualifier": "1231595791257637730",
+            "applicationName": "login",
+            "customerId": "C016r41nq"
+        },
+        "etag": "\"0E0Zu2uqThLf3wLZlWSxPah7UTNOLK0J_CRAZMNGMLE/0e8qnFXxODE2zBA24Fe9K_No7b8\"",
+        "actor": {
+            "email": "chirag.srinivas@cybercellar.in",
+            "profileId": "116735122405737892272"
+        },
+        "ipAddress": "117.202.77.161",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_failure",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "password",
+                            "idv_any_phone",
+                            "idv_any_phone"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-09-17T11:55:25.495Z",
+            "uniqueQualifier": "686214707400540667",
+            "applicationName": "login",
+            "customerId": "C016r41nq"
+        },
+        "etag": "\"0E0Zu2uqThLf3wLZlWSxPah7UTNOLK0J_CRAZMNGMLE/PxlS44y1Gwliyka3RMDqaFaNw1k\"",
+        "actor": {
+            "email": "chirag.srinivas@cybercellar.in",
+            "profileId": "116735122405737892272"
+        },
+        "ipAddress": "117.202.77.161",
+        "events": [
+            {
+                "type": "login",
+                "name": "risky_sensitive_action_blocked",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "password",
+                            "idv_any_phone",
+                            "idv_any_phone"
+                        ]
+                    },
+                    {
+                        "name": "is_suspicious",
+                        "boolValue": true
+                    },
+                    {
+                        "name": "sensitive_action_name",
+                        "value": "Access admin.google.com"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-09-17T11:55:25.495Z",
+            "uniqueQualifier": "-1757809956876472831",
+            "applicationName": "login",
+            "customerId": "C016r41nq"
+        },
+        "etag": "\"0E0Zu2uqThLf3wLZlWSxPah7UTNOLK0J_CRAZMNGMLE/zz11oZhNWZBzkYS-EY82L_d6L-k\"",
+        "actor": {
+            "email": "chirag.srinivas@cybercellar.in",
+            "profileId": "116735122405737892272"
+        },
+        "ipAddress": "117.202.77.161",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_challenge",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "idv_any_phone"
+                        ]
+                    },
+                    {
+                        "name": "login_challenge_status",
+                        "value": "quota_exhausted"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-09-17T11:52:12.575Z",
+            "uniqueQualifier": "5607319373860960003",
+            "applicationName": "login",
+            "customerId": "C016r41nq"
+        },
+        "etag": "\"0E0Zu2uqThLf3wLZlWSxPah7UTNOLK0J_CRAZMNGMLE/H6lo2IhzzP6V-Cv5LpWI4XEX-LI\"",
+        "actor": {
+            "email": "chirag.srinivas@cybercellar.in",
+            "profileId": "116735122405737892272"
+        },
+        "ipAddress": "117.202.77.161",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_challenge",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "idv_any_phone"
+                        ]
+                    },
+                    {
+                        "name": "login_challenge_status",
+                        "value": "quota_exhausted"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-09-17T11:51:30.090Z",
+            "uniqueQualifier": "-6112361541152475125",
+            "applicationName": "login",
+            "customerId": "C016r41nq"
+        },
+        "etag": "\"0E0Zu2uqThLf3wLZlWSxPah7UTNOLK0J_CRAZMNGMLE/gFkUAODnkr2Wh_s8E4Ts_B6Ss9M\"",
+        "actor": {
+            "email": "chirag.srinivas@cybercellar.in",
+            "profileId": "116735122405737892272"
+        },
+        "ipAddress": "117.202.77.161",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_failure",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "password",
+                            "idv_any_phone",
+                            "idv_any_phone"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-09-17T11:51:30.090Z",
+            "uniqueQualifier": "-9010830343110548842",
+            "applicationName": "login",
+            "customerId": "C016r41nq"
+        },
+        "etag": "\"0E0Zu2uqThLf3wLZlWSxPah7UTNOLK0J_CRAZMNGMLE/qg8jfWqBRv5nojBZE2Bx2Pj1wUE\"",
+        "actor": {
+            "email": "chirag.srinivas@cybercellar.in",
+            "profileId": "116735122405737892272"
+        },
+        "ipAddress": "117.202.77.161",
+        "events": [
+            {
+                "type": "login",
+                "name": "risky_sensitive_action_blocked",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "password",
+                            "idv_any_phone",
+                            "idv_any_phone"
+                        ]
+                    },
+                    {
+                        "name": "is_suspicious",
+                        "boolValue": true
+                    },
+                    {
+                        "name": "sensitive_action_name",
+                        "value": "Access admin.google.com"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-09-17T11:51:30.090Z",
+            "uniqueQualifier": "8782318302690661358",
+            "applicationName": "login",
+            "customerId": "C016r41nq"
+        },
+        "etag": "\"0E0Zu2uqThLf3wLZlWSxPah7UTNOLK0J_CRAZMNGMLE/4ZOd1hMXRXD0QTQLtQF3EoNehos\"",
+        "actor": {
+            "email": "chirag.srinivas@cybercellar.in",
+            "profileId": "116735122405737892272"
+        },
+        "ipAddress": "117.202.77.161",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_challenge",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "idv_any_phone"
+                        ]
+                    },
+                    {
+                        "name": "login_challenge_status",
+                        "value": "quota_exhausted"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-09-17T11:50:59.560Z",
+            "uniqueQualifier": "8918094795028583859",
+            "applicationName": "login",
+            "customerId": "C016r41nq"
+        },
+        "etag": "\"0E0Zu2uqThLf3wLZlWSxPah7UTNOLK0J_CRAZMNGMLE/ayoKAQ0WvDwBYxiotCRSuI_oCZE\"",
+        "actor": {
+            "email": "chirag.srinivas@cybercellar.in",
+            "profileId": "116735122405737892272"
+        },
+        "ipAddress": "117.202.77.161",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_challenge",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "idv_any_phone"
+                        ]
+                    },
+                    {
+                        "name": "login_challenge_status",
+                        "value": "quota_exhausted"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-09-17T11:19:51.461Z",
+            "uniqueQualifier": "7021503773142053488",
+            "applicationName": "login",
+            "customerId": "C016r41nq"
+        },
+        "etag": "\"0E0Zu2uqThLf3wLZlWSxPah7UTNOLK0J_CRAZMNGMLE/Z9sCaDjSpRsF1A0PYjagn3_jswo\"",
+        "actor": {
+            "email": "chirag.srinivas@cybercellar.in",
+            "profileId": "116735122405737892272"
+        },
+        "ipAddress": "117.202.77.161",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_failure",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "none"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-09-17T11:19:49.818Z",
+            "uniqueQualifier": "-4644711855126569536",
+            "applicationName": "login",
+            "customerId": "C016r41nq"
+        },
+        "etag": "\"0E0Zu2uqThLf3wLZlWSxPah7UTNOLK0J_CRAZMNGMLE/z6RX98QY87ATE9wWdPwa4vhiBWY\"",
+        "actor": {
+            "email": "chirag.srinivas@cybercellar.in",
+            "profileId": "116735122405737892272"
+        },
+        "ipAddress": "117.202.77.161",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_failure",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "none"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-09-17T11:19:49.818Z",
+            "uniqueQualifier": "4367813981135679453",
+            "applicationName": "login",
+            "customerId": "C016r41nq"
+        },
+        "etag": "\"0E0Zu2uqThLf3wLZlWSxPah7UTNOLK0J_CRAZMNGMLE/DCn3I9lDaKM-G7rCJyJgf3dvoTI\"",
+        "actor": {
+            "email": "chirag.srinivas@cybercellar.in",
+            "profileId": "116735122405737892272"
+        },
+        "ipAddress": "117.202.77.161",
+        "events": [
+            {
+                "type": "login",
+                "name": "risky_sensitive_action_blocked",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "none"
+                        ]
+                    },
+                    {
+                        "name": "is_suspicious",
+                        "boolValue": true
+                    },
+                    {
+                        "name": "sensitive_action_name",
+                        "value": "Access admin.google.com"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-09-13T06:36:24.599Z",
+            "uniqueQualifier": "-4596438533575220974",
+            "applicationName": "login",
+            "customerId": "C016r41nq"
+        },
+        "etag": "\"0E0Zu2uqThLf3wLZlWSxPah7UTNOLK0J_CRAZMNGMLE/7k6puHKpxrg92L_EVf5bl7MlqEU\"",
+        "actor": {
+            "email": "chirag.srinivas@cybercellar.in",
+            "profileId": "116735122405737892272"
+        },
+        "ipAddress": "106.51.188.22",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_success",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "password"
+                        ]
+                    },
+                    {
+                        "name": "is_suspicious",
+                        "boolValue": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-09-13T04:56:16.351Z",
+            "uniqueQualifier": "5480015729189759591",
+            "applicationName": "login",
+            "customerId": "C016r41nq"
+        },
+        "etag": "\"0E0Zu2uqThLf3wLZlWSxPah7UTNOLK0J_CRAZMNGMLE/aE2eVWdXFdZ3drmFkGvdfFIuuUI\"",
+        "actor": {
+            "email": "chirag.srinivas@cybercellar.in",
+            "profileId": "116735122405737892272"
+        },
+        "ipAddress": "82.167.220.242",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_success",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "password"
+                        ]
+                    },
+                    {
+                        "name": "is_suspicious",
+                        "boolValue": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-09-12T10:16:21.267Z",
+            "uniqueQualifier": "-3317697443402721661",
+            "applicationName": "login",
+            "customerId": "C016r41nq"
+        },
+        "etag": "\"0E0Zu2uqThLf3wLZlWSxPah7UTNOLK0J_CRAZMNGMLE/NYVBheUel-rKlip_cNaStOSUNVw\"",
+        "actor": {
+            "email": "chirag.srinivas@cybercellar.in",
+            "profileId": "116735122405737892272"
+        },
+        "ipAddress": "106.51.188.22",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_success",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "none"
+                        ]
+                    },
+                    {
+                        "name": "is_suspicious",
+                        "boolValue": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-09-12T03:50:04.687Z",
+            "uniqueQualifier": "2041501460023591734",
+            "applicationName": "login",
+            "customerId": "C016r41nq"
+        },
+        "etag": "\"0E0Zu2uqThLf3wLZlWSxPah7UTNOLK0J_CRAZMNGMLE/qku3Pa12q2L1WxKBDn15VArrmQM\"",
+        "actor": {
+            "email": "chirag.srinivas@cybercellar.in",
+            "profileId": "116735122405737892272"
+        },
+        "ipAddress": "82.167.220.242",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_success",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "password"
+                        ]
+                    },
+                    {
+                        "name": "is_suspicious",
+                        "boolValue": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-09-11T06:24:11.852Z",
+            "uniqueQualifier": "-179726953983759627",
+            "applicationName": "login",
+            "customerId": "C016r41nq"
+        },
+        "etag": "\"0E0Zu2uqThLf3wLZlWSxPah7UTNOLK0J_CRAZMNGMLE/Iz9gSYE6BYl9cRpvA-nH2taKcyw\"",
+        "actor": {
+            "email": "chirag.srinivas@cybercellar.in",
+            "profileId": "116735122405737892272"
+        },
+        "ipAddress": "106.51.188.22",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_success",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "password"
+                        ]
+                    },
+                    {
+                        "name": "is_suspicious",
+                        "boolValue": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-09-05T09:12:41.339Z",
+            "uniqueQualifier": "-115178029031208287",
+            "applicationName": "login",
+            "customerId": "C016r41nq"
+        },
+        "etag": "\"0E0Zu2uqThLf3wLZlWSxPah7UTNOLK0J_CRAZMNGMLE/EMe__WiLrRp7nQLra1dan5xxCdY\"",
+        "actor": {
+            "email": "chirag.srinivas@cybercellar.in",
+            "profileId": "116735122405737892272"
+        },
+        "ipAddress": "36.255.87.7",
+        "events": [
+            {
+                "type": "login",
+                "name": "risky_sensitive_action_allowed",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "password",
+                            "idv_any_phone"
+                        ]
+                    },
+                    {
+                        "name": "is_suspicious",
+                        "boolValue": true
+                    },
+                    {
+                        "name": "sensitive_action_name",
+                        "value": "Access admin.google.com"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-09-05T09:12:41.339Z",
+            "uniqueQualifier": "-1284091191054491969",
+            "applicationName": "login",
+            "customerId": "C016r41nq"
+        },
+        "etag": "\"0E0Zu2uqThLf3wLZlWSxPah7UTNOLK0J_CRAZMNGMLE/hEjmVH008mu1jsKWfR9FqoB8ZeQ\"",
+        "actor": {
+            "email": "chirag.srinivas@cybercellar.in",
+            "profileId": "116735122405737892272"
+        },
+        "ipAddress": "36.255.87.7",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_success",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "password",
+                            "idv_any_phone"
+                        ]
+                    },
+                    {
+                        "name": "is_suspicious",
+                        "boolValue": true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-09-05T09:12:41.339Z",
+            "uniqueQualifier": "3053038780190387516",
+            "applicationName": "login",
+            "customerId": "C016r41nq"
+        },
+        "etag": "\"0E0Zu2uqThLf3wLZlWSxPah7UTNOLK0J_CRAZMNGMLE/UmcMan31s7MtAxkD4ZyHLRlrYVw\"",
+        "actor": {
+            "email": "chirag.srinivas@cybercellar.in",
+            "profileId": "116735122405737892272"
+        },
+        "ipAddress": "36.255.87.7",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_challenge",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "idv_any_phone"
+                        ]
+                    },
+                    {
+                        "name": "login_challenge_status",
+                        "value": "passed"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-09-04T09:58:39.714Z",
+            "uniqueQualifier": "7827937878744636509",
+            "applicationName": "login",
+            "customerId": "C016r41nq"
+        },
+        "etag": "\"0E0Zu2uqThLf3wLZlWSxPah7UTNOLK0J_CRAZMNGMLE/-OR7-vvUysITtyHkj3U6iLKHZlw\"",
+        "actor": {
+            "email": "chirag.srinivas@cybercellar.in",
+            "profileId": "116735122405737892272"
+        },
+        "ipAddress": "115.99.240.40",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_success",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "none"
+                        ]
+                    },
+                    {
+                        "name": "is_suspicious",
+                        "boolValue": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-09-04T08:20:01.870Z",
+            "uniqueQualifier": "-8550548040643008579",
+            "applicationName": "login",
+            "customerId": "C016r41nq"
+        },
+        "etag": "\"0E0Zu2uqThLf3wLZlWSxPah7UTNOLK0J_CRAZMNGMLE/SZjWUgN0uIaOE1-_2voL_fLV2xA\"",
+        "actor": {
+            "email": "chirag.srinivas@cybercellar.in",
+            "profileId": "116735122405737892272"
+        },
+        "ipAddress": "82.167.200.18",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_success",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "none"
+                        ]
+                    },
+                    {
+                        "name": "is_suspicious",
+                        "boolValue": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-09-04T08:19:58.379Z",
+            "uniqueQualifier": "3663323306899954386",
+            "applicationName": "login",
+            "customerId": "C016r41nq"
+        },
+        "etag": "\"0E0Zu2uqThLf3wLZlWSxPah7UTNOLK0J_CRAZMNGMLE/sY1ll-zmAsENgiFgzKXtZPrc5oU\"",
+        "actor": {
+            "email": "chirag.srinivas@cybercellar.in",
+            "profileId": "116735122405737892272"
+        },
+        "ipAddress": "82.167.200.18",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_success",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "google_password"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "password"
+                        ]
+                    },
+                    {
+                        "name": "is_suspicious",
+                        "boolValue": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-09-03T12:10:50.060Z",
+            "uniqueQualifier": "-7401584681081814332",
+            "applicationName": "login",
+            "customerId": "C016r41nq"
+        },
+        "etag": "\"0E0Zu2uqThLf3wLZlWSxPah7UTNOLK0J_CRAZMNGMLE/cr3JsXveh65cm53bGsQ-T58apR8\"",
+        "actor": {
+            "email": "chirag.srinivas@cybercellar.in",
+            "profileId": "116735122405737892272"
+        },
+        "ipAddress": "2401:4900:4e75:501f:ddd1:fd08:5ae7:1817",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_success",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "password",
+                            "idv_any_phone"
+                        ]
+                    },
+                    {
+                        "name": "is_suspicious",
+                        "boolValue": true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-09-03T12:10:50.060Z",
+            "uniqueQualifier": "8886535988617914567",
+            "applicationName": "login",
+            "customerId": "C016r41nq"
+        },
+        "etag": "\"0E0Zu2uqThLf3wLZlWSxPah7UTNOLK0J_CRAZMNGMLE/lS9IA2_Zd7sbc2tyBlMxtOrlNgw\"",
+        "actor": {
+            "email": "chirag.srinivas@cybercellar.in",
+            "profileId": "116735122405737892272"
+        },
+        "ipAddress": "2401:4900:4e75:501f:ddd1:fd08:5ae7:1817",
+        "events": [
+            {
+                "type": "login",
+                "name": "risky_sensitive_action_allowed",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "password",
+                            "idv_any_phone"
+                        ]
+                    },
+                    {
+                        "name": "is_suspicious",
+                        "boolValue": true
+                    },
+                    {
+                        "name": "sensitive_action_name",
+                        "value": "Access admin.google.com"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-09-03T12:10:50.060Z",
+            "uniqueQualifier": "-8968912010967044942",
+            "applicationName": "login",
+            "customerId": "C016r41nq"
+        },
+        "etag": "\"0E0Zu2uqThLf3wLZlWSxPah7UTNOLK0J_CRAZMNGMLE/n3wuDK66-P-TbKH8axDrUvQKRiU\"",
+        "actor": {
+            "email": "chirag.srinivas@cybercellar.in",
+            "profileId": "116735122405737892272"
+        },
+        "ipAddress": "2401:4900:4e75:501f:ddd1:fd08:5ae7:1817",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_challenge",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "idv_any_phone"
+                        ]
+                    },
+                    {
+                        "name": "login_challenge_status",
+                        "value": "passed"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-09-03T12:09:45.297Z",
+            "uniqueQualifier": "-7347932596587729410",
+            "applicationName": "login",
+            "customerId": "C016r41nq"
+        },
+        "etag": "\"0E0Zu2uqThLf3wLZlWSxPah7UTNOLK0J_CRAZMNGMLE/5jQSxD6iTjIqQMWMQYaWQhyVkTs\"",
+        "actor": {
+            "email": "chirag.srinivas@cybercellar.in",
+            "profileId": "116735122405737892272"
+        },
+        "ipAddress": "2401:4900:4e75:501f:ddd1:fd08:5ae7:1817",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_failure",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "password"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-09-03T12:09:45.297Z",
+            "uniqueQualifier": "-3886439486771172912",
+            "applicationName": "login",
+            "customerId": "C016r41nq"
+        },
+        "etag": "\"0E0Zu2uqThLf3wLZlWSxPah7UTNOLK0J_CRAZMNGMLE/oXbmVvJ18thRT515kPou7pIHDn0\"",
+        "actor": {
+            "email": "chirag.srinivas@cybercellar.in",
+            "profileId": "116735122405737892272"
+        },
+        "ipAddress": "2401:4900:4e75:501f:ddd1:fd08:5ae7:1817",
+        "events": [
+            {
+                "type": "login",
+                "name": "risky_sensitive_action_blocked",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "password"
+                        ]
+                    },
+                    {
+                        "name": "is_suspicious",
+                        "boolValue": true
+                    },
+                    {
+                        "name": "sensitive_action_name",
+                        "value": "Access admin.google.com"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-09-03T12:09:06.067Z",
+            "uniqueQualifier": "-1368940314491595164",
+            "applicationName": "login",
+            "customerId": "C016r41nq"
+        },
+        "etag": "\"0E0Zu2uqThLf3wLZlWSxPah7UTNOLK0J_CRAZMNGMLE/iqfDcA4sSfSLVCP0co2mFpoa--k\"",
+        "actor": {
+            "email": "chirag.srinivas@cybercellar.in",
+            "profileId": "116735122405737892272"
+        },
+        "ipAddress": "2401:4900:4e75:501f:ddd1:fd08:5ae7:1817",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_failure",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "none"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-09-03T11:24:54.860Z",
+            "uniqueQualifier": "-5020555122891990802",
+            "applicationName": "login",
+            "customerId": "C016r41nq"
+        },
+        "etag": "\"0E0Zu2uqThLf3wLZlWSxPah7UTNOLK0J_CRAZMNGMLE/ICLSm_mAxlq1Wet5mFWWNLBLAS8\"",
+        "actor": {
+            "email": "chirag.srinivas@cybercellar.in",
+            "profileId": "116735122405737892272"
+        },
+        "ipAddress": "106.51.188.22",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_success",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "password"
+                        ]
+                    },
+                    {
+                        "name": "is_suspicious",
+                        "boolValue": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-09-03T06:55:11.560Z",
+            "uniqueQualifier": "7206066052958411498",
+            "applicationName": "login",
+            "customerId": "C016r41nq"
+        },
+        "etag": "\"0E0Zu2uqThLf3wLZlWSxPah7UTNOLK0J_CRAZMNGMLE/ezby8mcfTdvhv5di5fxlGgG_w34\"",
+        "actor": {
+            "email": "chirag.srinivas@cybercellar.in",
+            "profileId": "116735122405737892272"
+        },
+        "ipAddress": "106.51.188.22",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_success",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "password"
+                        ]
+                    },
+                    {
+                        "name": "is_suspicious",
+                        "boolValue": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-09-03T06:34:21.990Z",
+            "uniqueQualifier": "3031057082808623850",
+            "applicationName": "login",
+            "customerId": "C016r41nq"
+        },
+        "etag": "\"0E0Zu2uqThLf3wLZlWSxPah7UTNOLK0J_CRAZMNGMLE/hex3BgMfOsrsaBulw2383z_z0W0\"",
+        "actor": {
+            "email": "chirag.srinivas@cybercellar.in",
+            "profileId": "116735122405737892272"
+        },
+        "ipAddress": "106.51.188.22",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_success",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "password",
+                            "idv_any_phone"
+                        ]
+                    },
+                    {
+                        "name": "is_suspicious",
+                        "boolValue": true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-09-03T06:34:21.990Z",
+            "uniqueQualifier": "8982056339839135613",
+            "applicationName": "login",
+            "customerId": "C016r41nq"
+        },
+        "etag": "\"0E0Zu2uqThLf3wLZlWSxPah7UTNOLK0J_CRAZMNGMLE/Xnw56SQQH0ChzRXPfGon9q0Hvu8\"",
+        "actor": {
+            "email": "chirag.srinivas@cybercellar.in",
+            "profileId": "116735122405737892272"
+        },
+        "ipAddress": "106.51.188.22",
+        "events": [
+            {
+                "type": "login",
+                "name": "risky_sensitive_action_allowed",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "password",
+                            "idv_any_phone"
+                        ]
+                    },
+                    {
+                        "name": "is_suspicious",
+                        "boolValue": true
+                    },
+                    {
+                        "name": "sensitive_action_name",
+                        "value": "Access admin.google.com"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-09-03T06:34:21.990Z",
+            "uniqueQualifier": "7257333653192629329",
+            "applicationName": "login",
+            "customerId": "C016r41nq"
+        },
+        "etag": "\"0E0Zu2uqThLf3wLZlWSxPah7UTNOLK0J_CRAZMNGMLE/kU218NMcYnTQaKbRIC3YI47Sxv4\"",
+        "actor": {
+            "email": "chirag.srinivas@cybercellar.in",
+            "profileId": "116735122405737892272"
+        },
+        "ipAddress": "106.51.188.22",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_challenge",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "idv_any_phone"
+                        ]
+                    },
+                    {
+                        "name": "login_challenge_status",
+                        "value": "passed"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-09-03T06:32:43.930Z",
+            "uniqueQualifier": "-4905671760506797112",
+            "applicationName": "login",
+            "customerId": "C016r41nq"
+        },
+        "etag": "\"0E0Zu2uqThLf3wLZlWSxPah7UTNOLK0J_CRAZMNGMLE/pqIIFZP6INZka2kGSBGzu1pZvhg\"",
+        "actor": {
+            "email": "chirag.srinivas@cybercellar.in",
+            "profileId": "116735122405737892272"
+        },
+        "ipAddress": "106.51.188.22",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_failure",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "none"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-08-30T11:57:32.986Z",
+            "uniqueQualifier": "7635184202991067383",
+            "applicationName": "login",
+            "customerId": "C016r41nq"
+        },
+        "etag": "\"0E0Zu2uqThLf3wLZlWSxPah7UTNOLK0J_CRAZMNGMLE/N-IjkOk4Uu8DC8sHUMZatke-5rQ\"",
+        "actor": {
+            "email": "chirag.srinivas@cybercellar.in",
+            "profileId": "116735122405737892272"
+        },
+        "ipAddress": "106.51.180.87",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_success",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "none"
+                        ]
+                    },
+                    {
+                        "name": "is_suspicious",
+                        "boolValue": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-08-30T11:57:27.424Z",
+            "uniqueQualifier": "-3824551465030014566",
+            "applicationName": "login",
+            "customerId": "C016r41nq"
+        },
+        "etag": "\"0E0Zu2uqThLf3wLZlWSxPah7UTNOLK0J_CRAZMNGMLE/PWobxRouNSww62_p0HRjeYSDSv0\"",
+        "actor": {
+            "email": "chirag.srinivas@cybercellar.in",
+            "profileId": "116735122405737892272"
+        },
+        "ipAddress": "106.51.180.87",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_success",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "google_password"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "password"
+                        ]
+                    },
+                    {
+                        "name": "is_suspicious",
+                        "boolValue": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-08-29T09:48:21.425Z",
+            "uniqueQualifier": "-5675354945581627672",
+            "applicationName": "login",
+            "customerId": "C016r41nq"
+        },
+        "etag": "\"0E0Zu2uqThLf3wLZlWSxPah7UTNOLK0J_CRAZMNGMLE/mzXWakuhMhmRJyiMLFoCUSR4kBY\"",
+        "actor": {
+            "email": "chirag.srinivas@cybercellar.in",
+            "profileId": "116735122405737892272"
+        },
+        "ipAddress": "106.51.180.87",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_success",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "password"
+                        ]
+                    },
+                    {
+                        "name": "is_suspicious",
+                        "boolValue": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-08-21T06:03:01.257Z",
+            "uniqueQualifier": "-4062931948024364602",
+            "applicationName": "login",
+            "customerId": "C016r41nq"
+        },
+        "etag": "\"0E0Zu2uqThLf3wLZlWSxPah7UTNOLK0J_CRAZMNGMLE/aDusZ7F2oNv1tTuWwgkhbY82OYo\"",
+        "actor": {
+            "email": "chirag.srinivas@cybercellar.in",
+            "profileId": "116735122405737892272"
+        },
+        "ipAddress": "117.202.65.159",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_success",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "password"
+                        ]
+                    },
+                    {
+                        "name": "is_suspicious",
+                        "boolValue": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "kind": "admin#reports#activity",
+        "id": {
+            "time": "2024-08-17T06:39:22.059Z",
+            "uniqueQualifier": "3381583679306655631",
+            "applicationName": "login",
+            "customerId": "C016r41nq"
+        },
+        "etag": "\"0E0Zu2uqThLf3wLZlWSxPah7UTNOLK0J_CRAZMNGMLE/aI-SyVbX008sjxuF6vA6T6Vapfw\"",
+        "actor": {
+            "email": "chirag.srinivas@cybercellar.in",
+            "profileId": "116735122405737892272"
+        },
+        "ipAddress": "117.200.187.104",
+        "events": [
+            {
+                "type": "login",
+                "name": "login_failure",
+                "parameters": [
+                    {
+                        "name": "login_type",
+                        "value": "reauth"
+                    },
+                    {
+                        "name": "login_challenge_method",
+                        "multiValue": [
+                            "none"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
