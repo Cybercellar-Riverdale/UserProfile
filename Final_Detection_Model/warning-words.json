@@ -1,0 +1,19 @@
+{
+  "warning_words": [
+    "WARNING",
+    "CAUTION", 
+    "URGENT",
+    "IMPORTANT",
+    "ALERT",
+    "ATTENTION",
+    "NOTICE",
+    "DANGER",
+    "CRITICAL",
+    "EMERGENCY",
+    "IMMEDIATE",
+    "ACTION",
+    "REQUIRED",
+    "DEADLINE",
+    "FINAL"
+  ]
+}

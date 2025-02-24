@@ -1,0 +1,16 @@
+{
+  "total_emails": 457,
+  "risk_distribution": {
+    "Low risk": 456,
+    "Medium risk": 1
+  },
+  "average_risk_score": 3.483588621444201,
+  "average_grammar_score": 91.63676148796499,
+  "component_averages": {
+    "warning_word_score": 0.2888402625820569,
+    "exclamation_score": 0.15317286652078774,
+    "spam_word_score": 3.0415754923413565,
+    "grammar_score": 91.63676148796499
+  },
+  "high_risk_emails": []
+}
