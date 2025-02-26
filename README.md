@@ -65,5 +65,6 @@ This project is designed to analyze email content, assess risk scores, and detec
 - Python 3.x
 - Required libraries:  
   ```sh
-  pip install pandas numpy scikit-learn xgboost vaderSentiment language-tool-python transformers torch pytesseract PyPDF2 python-docx
+  pip install pandas numpy scikit-learn xgboost vaderSentiment language-tool-python transformers torch pytesseract PyPDF2 python-docx fastapi==0.110.0 pydantic==2.6.3 uvicorn==0.29.0 joblib==1.3.2 numpy==1.26.2 scikit-learn==1.3.2 xgboost==2.0.3 jsonschema==4.19.2
+
   
